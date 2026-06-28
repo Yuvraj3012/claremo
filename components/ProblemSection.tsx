@@ -13,7 +13,6 @@ const after = [
   "True ROAS across every ad platform combined",
   "AI sends reminders, you just approve in one click",
   "Exact runway from live bank + Stripe data",
-  "Full AI finance department for $500/month",
 ];
 
 export default function ProblemSection() {
