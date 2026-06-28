@@ -101,6 +101,7 @@ const integrations = [
   { name: "AWS", Logo: AwsLogo },
   { name: "Meta Ads", Logo: MetaLogo },
   { name: "TikTok Ads", Logo: TikTokLogo },
+  { name: "+ more", Logo: null },
 ];
 
 export default function IntegrationsSection() {
@@ -120,7 +121,7 @@ export default function IntegrationsSection() {
               key={name}
               className="bg-white border border-gray-200 text-gray-700 text-sm font-medium px-4 py-2.5 rounded-full shadow-sm flex items-center gap-2.5"
             >
-              <Logo />
+              {Logo && <Logo />}
               {name}
             </div>
           ))}
